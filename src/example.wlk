@@ -1,8 +1,8 @@
 object springfield {
-	var viento = 10
-	var riquezaSuelo = 0.9
-	var centrales = [centralAtomica, centralCarbon, centralEolica]
-	var necesidad = 5
+	var property viento = 10
+	var property riquezaSuelo = 0.9
+	var property centrales = [centralAtomica, centralCarbon, centralEolica]
+	var property necesidad = 5
 	method viento() {
 		return viento
 	}
@@ -25,7 +25,7 @@ object springfield {
 }
 	
 object centralAtomica {
-	var varillas = 30
+	var property varillas = 30
 	method produccion(_){
 		return 0.1 * varillas	
 	}	

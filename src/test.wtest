@@ -1,0 +1,7 @@
+import example.*
+describe "tests de se dice atomico" {
+	test "burns con 10 varillas debe producir 1 Mkwh en springfield" {
+		centralAtomica.varillas(10)
+		assert.that(centralAtomica.produccion("Le paso cualquier cosa total no importa") == 1)
+	}
+}
